@@ -10,6 +10,7 @@ import { Row, Col } from "reactstrap";
 import 'nextra-theme-docs';
 import { ResponsiveContainer, LineChart, CartesianGrid } from 'recharts'
 import Popup from 'reactjs-popup'
+import Head from 'next/head'
 
 function Example() {
   let iconStyles = { color: "black", fontSize: ".75em", background:"#89cff0", opacity: ".9"};
@@ -24,9 +25,10 @@ function Example() {
   let futurodata  = { color: "black", fontSize: ".75em", background:"gray", opacity: ".5"};
   return (
     <>
-  <div className={styles.fundo}></div>
+  <Head><title>LBLS LIFE</title></Head>
   <div className={styles.widget}>
   <div className={styles.content}>
+  <div className={styles.fundo}></div>
   <div className={styles.formacao}><div className={styles.veticalalign}>Técnico em Automação Industrial</div></div>
   <div className={styles.formacaodois}><div className={styles.veticalalign}>Bacharel em Engenharia Florestal</div></div>
   <div className={styles.quadrado}><div className={styles.veticalalign}>Cada □ representa uma semana</div></div>
@@ -52,7 +54,7 @@ function Example() {
         <div className={styles.contentpopup}>
           {' '}
           <div className={styles.paragraphdois}><GiFruitTree/></div>
-          Olá, sou Israel Silva, criador do site <b>SOUSA com S</b> para comemoração do aniversário 
+          Olá, sou Israel Silva e criei este site, <b>SOUSA com S</b>, para comemoração do aniversário 
           de 22 anos da Laura, inspirado no site <b>LIFE</b> do <a class={styles.link} href="https://fserb.com/">Fernando Serboncini</a>.          
         </div>
       </div>

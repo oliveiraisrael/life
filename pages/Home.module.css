@@ -7,8 +7,15 @@
 }
 
 .fundo {
-  background-color: #f08080b3;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
   position: absolute;
+  top: 0%;
+  left: -655px;
+  height: 94.3em;
+  width: 192em;
+  text-align: right;
+  vertical-align: top;
 }
 
 .link { color: #ffffff; } 
@@ -25,7 +32,7 @@
   font-size: 56px;
   left: 3.0em;
   top: 0.2em;
-  color: #7FFFD4;
+  color: #2aa194;
   text-align: center;
   position: absolute;
 }
@@ -149,7 +156,7 @@ div.nascimento {
   }
 
   div.subtitulo {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 36px;
     color:#2aa194;
@@ -281,20 +288,21 @@ div.nascimento {
 
 .widgetdois {
   background: rgba(217, 116, 116, 0);
-  position: relative;
-  display: flex;
+  position: absolute;
   margin: 0%;
   border-radius: 0;
-  height: 0.65em;
-  width: 39em;
-  left: 34%;
-  justify-content: center;
+  top: 0;
+  height: auto;
+  width: 100%;
 }
 
 .contentdois {
-  line-break: normal;
-  width: auto;
-  justify-content: center;
+  background: rgba(140, 217, 116, 0.801);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
 }
 
 .formacao {
