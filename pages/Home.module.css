@@ -75,11 +75,13 @@ div.nascimento {
     font-size: 10px;
     position: relative;
     top: 400%;
-    left: -100px;
+    left: -120px;
     width: 100%;
     overflow: hidden;
     margin-left: auto; 
     margin-right: 0;
+    width: 10em;
+    text-align: right;
   }
 
   div.cinco {
@@ -88,9 +90,10 @@ div.nascimento {
     color:rgba(128, 128, 128, 0.715);
     position: relative;
     top:613%;
-    left: -33px;
+    left: -120px;
     overflow: hidden;
-    text-align: left;
+    width: 10em;
+    text-align: right;
   }
   div.dez {
     font-family: "Times New Roman", Times, serif;
@@ -98,9 +101,10 @@ div.nascimento {
     color:rgba(128, 128, 128, 0.715);
     position: relative;
     top:893%;
-    left: -33px;
+    left: -120px;
     overflow: hidden;
-    text-align: left;
+    width: 10em;
+    text-align: right;
   }
   div.quinze {
     font-family: "Times New Roman", Times, serif;
@@ -108,9 +112,10 @@ div.nascimento {
     color:rgba(128, 128, 128, 0.715);
     position: relative;
     top:1169%;
-    left: -33px;
+    left: -120px;
     overflow: hidden;
-    text-align: left;
+    width: 10em;
+    text-align: right;
   }
   div.vinte {
     font-family: "Times New Roman", Times, serif;
@@ -118,9 +123,10 @@ div.nascimento {
     color:rgba(128, 128, 128, 0.715);
     position: relative;
     top:1445%;
-    left: -33px;
+    left: -120px;
     overflow: hidden;
-    text-align: left;
+    width: 10em;
+    text-align: right;
   }
   div.vintecinco {
     font-family: "Times New Roman", Times, serif;
@@ -128,9 +134,10 @@ div.nascimento {
     color:rgba(128, 128, 128, 0.715);
     position: relative;
     top:1726%;
-    left: -33px;
+    left: -120px;
     overflow: hidden;
-    text-align: left;
+    width: 10em;
+    text-align: right;
   }
 
   div.titulo {
@@ -310,9 +317,9 @@ div.nascimento {
   font-size: 10px;
   position: absolute;
   top: 5600%;
-  left: 600px;
+  left: 550px;
   height: .9em;
-  width: 17.75em;
+  width: 25.75em;
   text-align: right;
   vertical-align: top;
   background-color: #FA8072;
@@ -322,9 +329,9 @@ div.nascimento {
   font-size: 10px;
   position: absolute;
   top: 6000%;
-  left: 600px;
+  left: 550px;
   height: .9em;
-  width: 17.75em;
+  width: 25.75em;
   text-align: right;
   vertical-align: top;
   background-color: #98FB98;

@@ -28,7 +28,6 @@ function Example() {
   <Head><title>LBLS LIFE</title></Head>
   <div className={styles.widget}>
   <div className={styles.content}>
-  <div className={styles.fundo}></div>
   <div className={styles.formacao}><div className={styles.veticalalign}>Técnico em Automação Industrial</div></div>
   <div className={styles.formacaodois}><div className={styles.veticalalign}>Bacharel em Engenharia Florestal</div></div>
   <div className={styles.quadrado}><div className={styles.veticalalign}>Cada □ representa uma semana</div></div>
