@@ -92,7 +92,7 @@ function Example() {
    </ResponsiveContainer> 
   <ResponsiveContainer fluid className={styles.container} width="100%" aspect={0} >
     <Row  className="justify-content-left row-cols-0 row-cols-lg-0 g-0 g-lg-0">
-    <Col xs="auto"><div className={styles.nascimento}>27 de Fevereiro, 2001</div></Col>
+    <Col xs="auto"><div className={styles.nascimento}>27 de Fev, 2001</div></Col>
     </Row>
    </ResponsiveContainer> 
    <ResponsiveContainer fluid className={styles.container} width="100%" aspect={0} >
